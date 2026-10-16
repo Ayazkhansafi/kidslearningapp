@@ -1,0 +1,52 @@
+// theme.ts
+export const theme = {
+  colors: {
+    background: "#abee74",
+    primary: "#245c35",
+    primaryLight: "#D0EDBE",
+    secondary: "#8BD9D7",
+    accentOrange: "#F49A3F",
+    accentBlue: "#159BEA",
+    accentYellow: "#FFF6D0",
+    success: "#83C95B",
+    successLight: "#DCECCF",
+    textDark: "#245C35",
+    textMuted: "#82917C",
+    textSecondary: "#65856A",
+    white: "#FFFFFF",
+    cardBorder: "#D0EDBE",
+    shadow: "#1779B5",
+  },
+  spacing: {
+    xs: 4,
+    sm: 8,
+    md: 12,
+    base: 16,
+    lg: 20,
+    xl: 24,
+    xxl: 35,
+  },
+  borderRadius: {
+    sm: 10,
+    md: 15,
+    lg: 20,
+    xl: 28,
+    full: 999,
+  },
+  shadows: {
+    card: {
+      shadowColor: "#000",
+      shadowOpacity: 0.08,
+      shadowRadius: 10,
+      shadowOffset: { width: 0, height: 4 },
+      elevation: 4,
+    },
+    button: {
+      shadowColor: "#1779B5",
+      shadowOpacity: 0.3,
+      shadowRadius: 8,
+      shadowOffset: { width: 0, height: 7 },
+      elevation: 5,
+    },
+  },
+};

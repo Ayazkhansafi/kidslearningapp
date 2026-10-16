@@ -1,0 +1,115 @@
+import {
+  AnimalIcon,
+  ColoringIcon,
+  LetterIcon,
+  MatchingIcon,
+  MathIcon,
+  NumbersIcon,
+  PaletteIcon,
+  ShapesIcon,
+  WordsIcon,
+} from "@/assets/svg";
+
+export const recommendedCard = [
+  {
+    title: "Colors",
+    gradient: ["#fff8e1", "#ffe082"] as const,
+    icon: <PaletteIcon />,
+    locked: false,
+    cardType: "DirectPlay",
+  },
+  {
+    title: "Shapes",
+    gradient: ["#f3e8ff", "#d8b4fe"] as const,
+    icon: <ShapesIcon />,
+    locked: false,
+    cardType: "DirectPlay",
+  },
+  {
+    title: "Animals",
+    gradient: ["#e8f5e9", "#a5d6a7"] as const,
+    icon: <AnimalIcon />,
+    locked: false,
+    cardType: "DirectPlay",
+  },
+  {
+    title: "Numbers",
+    gradient: ["#e0f7fa", "#80deea"] as const,
+    icon: <NumbersIcon />,
+    locked: false,
+    cardType: "DirectPlay",
+  },
+  {
+    title: "Alphabets",
+    gradient: ["#ffebee", "#ffab91"] as const,
+    icon: <LetterIcon />,
+    locked: false,
+    cardType: "ChooseFrom",
+  },
+  {
+    title: "Math",
+    gradient: ["#e0f2fe", "#bae6fd"] as const,
+    icon: <MathIcon />,
+    locked: true,
+    cardType: "ChooseFrom",
+  },
+  {
+    title: "Coloring",
+    gradient: ["#fff3e0", "#ffcc80"] as const,
+    icon: <ColoringIcon />,
+    locked: false,
+    cardType: "DirectPlay",
+  },
+  {
+    title: "Spelling",
+    gradient: ["#f1f8e9", "#c5e1a5"] as const,
+    icon: <WordsIcon />,
+    locked: false,
+    cardType: "ChooseFrom",
+  },
+  {
+    title: "Matching",
+    gradient: ["#e8eaf6", "#c5cae9"] as const,
+    icon: <MatchingIcon />,
+    locked: false,
+    cardType: "ChooseFrom",
+  },
+];
+
+export const continueLearningCards = [
+  {
+    title: "Numbers",
+    gradient: ["#e0f7fa", "#80deea"] as const,
+    icon: <NumbersIcon />,
+    locked: false,
+    cardType: "DirectPlay",
+  },
+  {
+    title: "Alphabets",
+    gradient: ["#ffebee", "#ffab91"] as const,
+    icon: <LetterIcon />,
+    locked: false,
+    cardType: "ChooseFrom",
+  },
+  {
+    title: "Math",
+    gradient: ["#e0f2fe", "#bae6fd"] as const,
+    icon: <MathIcon />,
+    locked: true,
+    cardType: "ChooseFrom",
+  },
+  {
+    title: "Coloring",
+    gradient: ["#fff3e0", "#ffcc80"] as const,
+    icon: <ColoringIcon />,
+    locked: false,
+    cardType: "DirectPlay",
+  },
+  {
+    title: "Spelling",
+    gradient: ["#f1f8e9", "#c5e1a5"] as const,
+    icon: <WordsIcon />,
+    locked: false,
+    cardType: "ChooseFrom",
+  },
+];
